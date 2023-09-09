@@ -1,5 +1,5 @@
 # Fylo-Dark-Theme-Landing-Page
-Fylo dark theme landing page is the fronendmentor challenge website which I codded after my sem - 4 exam break to hone my html and CSS skills and this is the last website I build only using HTML and CSS. I am going to learn JavaScript.
+Fylo dark theme landing page is the fronendmentor challenge website which I codded after my sem - 4 exam break to hone my html and CSS skills and this is the last website I build only using HTML and pure CSS. I am going to learn Tailwind.
 
 <hr>
 
