@@ -9,16 +9,17 @@ Fylo dark theme landing page is the fronendmentor challenge website which I code
 
 ## Table of contents
 
-- [Overview]
+- ### Overview
   - The challenge
   - Preview
+  - Lighthouse Report
 
-- [My process]
+- ### My process
   - Built with
   - What I learned
-- [My Current Tech Stack]
+- ### My Current Tech Stack
 
-## Overview
+# Overview
 
 ### The challenges
 There are challenges in this projects -
@@ -45,6 +46,10 @@ https://github.com/ManikMaity/Fylo-Dark-Theme-Landing-Page/assets/110734724/d264
 
 https://github.com/ManikMaity/Fylo-Dark-Theme-Landing-Page/assets/110734724/3ced6a4d-64c3-4feb-a026-4971ede9a293
 
+### Lighthouse Report
+![Screenshot 2023-09-10 193946](https://github.com/ManikMaity/Fylo-Dark-Theme-Landing-Page/assets/110734724/6de7900d-79f3-4085-bd43-a53d32e514d6)
+
+# My Process
 ### Build With
  - HTML
  - Pure CSS
