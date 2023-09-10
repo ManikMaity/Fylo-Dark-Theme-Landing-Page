@@ -23,6 +23,10 @@ Fylo dark theme landing page is the fronendmentor challenge website which I code
 There are challenges in this projects -
   1. Maak ethe website responsive for desktop, tablet and mobile
   2. Make it looks good
+  3. Make the scroll animation
+  4. SEO friendly
+  5. Accessibility
+  6. Best Practices
 
 ## Preview
 ### Desktop Preview
@@ -47,6 +51,8 @@ https://github.com/ManikMaity/Fylo-Dark-Theme-Landing-Page/assets/110734724/3ced
  
   1. I ahave learned many thing about css layout and Pseudo Class.
   2. This project helped me to hone my html and css skills after a long break.
+  3. Learned about SEO and Best Practices
+  4. Learned about AOS
 
 <h2 align="center">My Current Tech Stack</h2>
 <p align="center">
