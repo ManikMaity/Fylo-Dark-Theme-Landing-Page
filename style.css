@@ -17,7 +17,7 @@ body {
 
 :root {
   color-scheme: dark;
-  --cyan: hsl(176, 68%, 64%);
+  --cyan: rgb(101, 226, 217);
   --skyblue: hsl(198, 60%, 50%);
   --main-gradient: linear-gradient(to right, var(--cyan), var(--skyblue));
   /* Note - when using linier gradiaent should use background-image instead of background-color */
@@ -617,14 +617,15 @@ footer > .container3 {
   border: 1px solid #ffffff;
 }
 
-.f-social-icon > a > i {
-  color: inherit;
+.f-social-icon > a > img {
+  background-color: inherit;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(242deg) brightness(102%) contrast(102%);
+  transform: scale(0.6);
 }
 
 .f-social-icon > a:hover,
 .f-social-icon > a:active {
-  border-color: var(--cyan);
-  color: var(--cyan);
+  filter: invert(83%) sepia(29%) saturate(691%) hue-rotate(119deg) brightness(95%) contrast(89%);
 }
 
 /* made by me  */
