@@ -4,21 +4,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fylo Dark Theme Landing Page website is a awsome one page website for startups, small business or personal brand.
+  Its responsive and mobile friendly, fast and seo friendly. My name Mnaik Maity I codded this as a frontend mentor challenge.">
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico" />
 
   <title>
     Fylo Landing Page | Manik Maity
   </title>
-  <!-- ramiz icon cdn  -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-
   <!-- font link  -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
     rel="stylesheet" />
+
+    <!-- aos stylesheet link  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- stylesheet link  -->
   <link rel="stylesheet" href="./style.css" />
@@ -42,11 +43,11 @@
   <!-- hero setiion -->
   <section id="hero">
     <div class="container">
-      <div class="img-container center-item">
+      <div class="img-container center-item"  data-aos="fade-up">
         <img class="hero-img" src="./images/illustration-intro.png" alt="" />
       </div>
 
-      <div class="hero-text center-item">
+      <div class="hero-text center-item" data-aos="fade-up">
         <h1 class="primary-heading">
           All your files in one secure location, accessible anywhere.
         </h1>
@@ -55,7 +56,7 @@
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <button class="primary-btn">Get Started</button>
+        <button class="primary-btn" data-aos="zoom-in">Get Started</button>
       </div>
     </div>
     <div class="hero-svg">
@@ -67,25 +68,25 @@
   <section id="service">
     <div class="container2 center-item">
       <div class="grid-service">
-        <div class="service-card">
+        <div class="service-card" data-aos="flip-up">
           <img src="./images/icon-access-anywhere.svg" alt="a computer image">
           <h3>Access your files, anywhere</h3>
           <p>The ability to use a smartphone, tablet, or computer to access your account means your
             files follow you everywhere.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" data-aos="flip-up">
           <img src="./images/icon-security.svg" alt="a computer image">
           <h3>Security you can trust</h3>
           <p> 2-factor authentication and user-controlled encryption are just a couple of the security
             features we allow to help secure your files.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" data-aos="flip-up">
           <img src="./images/icon-collaboration.svg" alt="a computer image">
           <h3>Real-time collaboration</h3>
           <p>Securely share files and folders with friends, family and colleagues for live collaboration.
             No email attachments required.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" data-aos="flip-up">
           <img src="./images/icon-any-file.svg" alt="a computer image">
           <h3>Store any type of file</h3>
           <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
@@ -98,17 +99,17 @@
     <!-- team section  -->
     <section id="team">
       <div class="container3">
-        <div class="team-left">
+        <div class="team-left" data-aos="fade-right">
           <img src="./images/illustration-stay-productive.png" alt="">
         </div>
-        <div class="team-right">
+        <div class="team-right" data-aos="fade-left">
           <h1>Stay productive, wherever you are</h1>
           <p class="t-p1">Never let location be an issue when accessing your files.
             Fylo has you covered for all of your file storage needs.
           </p>
           <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email
             attachments required.</p>
-          <a class="team-link" href="">
+          <a class="team-link" href="#">
             See how Fylo works
             <img class="arrow" src="./images/icon-arrow.svg" alt="">
           </a>
@@ -119,11 +120,11 @@
     <!-- testimonial section  -->
     <section id="testimonial">
       <div class="container3">
-        <div class="quotes">
+        <div class="quotes" data-aos="zoom-in-right">
           <img src="./images/bg-quotes.png" alt="bg-quotes">
         </div>
         <div class="main-testi">
-          <div class="card-testi">
+          <div class="card-testi" data-aos="zoom-in-right">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
               become a well-oiled collaboration machine.</p>
             <div class="t-profile">
@@ -137,7 +138,7 @@
 
 
 
-          <div class="card-testi">
+          <div class="card-testi" data-aos="zoom-in-up">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
               become a well-oiled collaboration machine.</p>
             <div class="t-profile">
@@ -150,7 +151,7 @@
           </div>
 
 
-          <div class="card-testi">
+          <div class="card-testi" data-aos="zoom-in-left">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
               become a well-oiled collaboration machine.</p>
             <div class="t-profile">
@@ -167,7 +168,7 @@
 
     <!-- ctc section  -->
     <section id="ctc">
-      <div class="container4">
+      <div class="container4" data-aos="zoom-out">
         <h2>Get early access today</h2>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
           questions, our support team would be happy to help you.</p>
@@ -181,8 +182,8 @@
 
     <!-- footer section  -->
     <footer id="footer">
-      <a class="f-logo" href="#"><img src="./images/logo.svg" alt="logo"></a>
-      <div class="container3">
+      <a class="f-logo" href="#" ><img src="./images/logo.svg" alt="logo" data-aos="fade-right"></a>
+      <div class="container3" data-aos="fade-up">
         <div class="f-icon-text location-icon">
           <img class="location-icon" src="./images/icon-location.svg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -215,9 +216,9 @@
         </div>
 
         <div class="f-social-icon">
-          <a href="#"><i class="ri-facebook-fill"></i></a>
-          <a href="#"><i class="ri-twitter-x-line"></i></a>
-          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#" aria-label="facebook"><img src="./images/facebook-fill.png" alt="facebook-icon"></a>
+          <a href="#" aria-label="twitter"><img src="./images/twitter-x-line.png" alt="twitter-icon"></a>
+          <a href="#" aria-label="instagram"><img src="./images/instagram-line.png" alt="instagram-icon"></a>
         </div>
       </div>
     </footer>
@@ -225,6 +226,14 @@
       <img src="./images/manik-maity.jpeg" alt="">
       <p>Coded By <a class="me-link" href="https://www.linkedin.com/in/manikmaity/" target="_blank">Manik Maity</a></p>
     </div>
+    <!-- aos animation  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+      });
+    </script>
 </body>
 
 </html>
