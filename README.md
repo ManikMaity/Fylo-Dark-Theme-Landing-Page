@@ -10,12 +10,13 @@ Fylo dark theme landing page is the fronendmentor challenge website which I code
 ## Table of contents
 
 - [Overview]
-  - [The challenge]
-  - [Screenshots]
-  - [Links]
+  - The challenge
+  - Preview
+
 - [My process]
-  - [Built with]
-  - [What I learned]
+  - Built with
+  - What I learned
+- [My Current Tech Stack]
 
 ## Overview
 
@@ -44,7 +45,11 @@ https://github.com/ManikMaity/Fylo-Dark-Theme-Landing-Page/assets/110734724/d264
 
 https://github.com/ManikMaity/Fylo-Dark-Theme-Landing-Page/assets/110734724/3ced6a4d-64c3-4feb-a026-4971ede9a293
 
-
+### Build With
+ - HTML
+ - Pure CSS
+ - AOS Scroll Animation
+ - Google Fonts
 
 
 ### What I learned
